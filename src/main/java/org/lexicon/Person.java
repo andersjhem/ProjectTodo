@@ -10,15 +10,15 @@ public class Person {
 
     public Person(int id,String firstname,String lastName,String email) {
 
-        if (firstname == null || firstname.isEmpty()) {
+        if (firstname == null || firstname.isEmpty())
             throw new RuntimeException("Not allowed to be null");
-        }
-        if (lastName == null || lastName.isEmpty()) {
+
+        if (lastName == null || lastName.isEmpty())
             throw new RuntimeException("Not allowed to be null");
-        }
-        if (email == null || email.isEmpty()) {
+
+        if (email == null || email.isEmpty())
             throw new RuntimeException("Not allowed to be null");
-        }
+
     }
 
     //Getter
