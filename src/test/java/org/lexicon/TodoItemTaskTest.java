@@ -2,11 +2,11 @@ package org.lexicon;
 
 import org.junit.jupiter.api.Test;
 
-public class TodoItemTask {
+public class TodoItemTaskTest {
 
     @Test
-    public void testTodoItemTask(){
+    public void testTodoItemTaskTest(){
 
     }
-
 }
+
